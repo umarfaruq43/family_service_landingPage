@@ -18,6 +18,7 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 1000;
+    display: none;
 }
 
 /* Style the icon bar links */
@@ -58,4 +59,21 @@
 .youtube {
     background: #bb0000;
     color: white;
+}
+/* Mobile View */
+@media screen and (max-width: 767px) {
+    .icon-bar {
+        position: relative;
+        /* bottom: 0; */
+        /* left: 0; */
+        width: 100%;
+        display: flex !important;
+        justify-content: space-evenly;
+        background-color: #ffffff;
+        padding: 10px 0;
+    }
+
+    .icon-bar a {
+        margin: 0 5px;
+    }
 }
