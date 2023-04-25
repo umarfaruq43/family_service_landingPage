@@ -785,7 +785,7 @@ blockquote {
   height: auto;
 }
 .slide__align--center {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 .htc__testimonial__left h2.title__line {
   font-size: 25px;
