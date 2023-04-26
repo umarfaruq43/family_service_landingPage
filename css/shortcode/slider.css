@@ -46,6 +46,7 @@
     position: relative;
     z-index: 2;
     text-align: center;
+    /* max-height: 500px; */
 }
 
 .slider__inner h4 {
