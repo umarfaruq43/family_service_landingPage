@@ -1188,11 +1188,11 @@ About 2
     padding: 89px 0;
 }
 .htc__mission__container .single__mission + .single__mission {
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .single__mission h2 {
     color: #1f2d30;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: 12px;
     text-transform: uppercase;
