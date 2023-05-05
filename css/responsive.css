@@ -42,10 +42,10 @@
         padding: 46px 0;
     }
     .htc__mission__container {
-        padding: 58px 0;
+        /* padding: 58px 0; */
     }
     .htc__mission__container .single__mission + .single__mission {
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
     .htc__offer__thumb {
         max-width: 52%;
@@ -915,5 +915,8 @@
     }
     .footer__top.ptb--130 {
         padding: 50px 0;
+    }
+    .d-flex{
+        flex-direction: column;
     }
 }

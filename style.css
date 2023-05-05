@@ -54,7 +54,7 @@
 /*---------------------------------------
   02. Scroll To Top
 ----------------------------------------*/
-#scrollUp {
+/* #scrollUp {
     border-radius: 2px;
     bottom: 80px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -69,14 +69,14 @@
     width: 45px;
     z-index: 200;
     bottom: 15px;
-}
-#scrollUp:hover {
-}
+} */
+/* #scrollUp:hover {
+} */
 html {
     scroll-behavior: smooth !important;
 }
 
-@-webkit-keyframes scroll-ani-to-top {
+/* @-webkit-keyframes scroll-ani-to-top {
     0% {
         opacity: 0;
         bottom: 0;
@@ -132,7 +132,7 @@ html {
 }
 #scrollUp {
     background: #a46ee8 none repeat scroll 0 0;
-}
+} */
 
 /*---------------------------------------
   End Scroll To Top
@@ -1185,7 +1185,7 @@ About 2
     top: 0;
 }
 .htc__mission__container {
-    padding: 89px 0;
+    /* padding: 89px 0; */
 }
 .htc__mission__container .single__mission + .single__mission {
     /* margin-top: 50px; */
@@ -1194,7 +1194,7 @@ About 2
     color: #1f2d30;
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin: 12px 0px;
     text-transform: uppercase;
 }
 .single__mission p {
