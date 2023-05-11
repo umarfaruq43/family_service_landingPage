@@ -1999,3 +1999,7 @@ blockquote {
 :focus {
     outline: -webkit-focus-ring-color auto 0px;
 }
+.alphabet-litle {
+    font-size: 18px;
+    color: #a46ee8 !important;
+}
