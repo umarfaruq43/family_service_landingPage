@@ -82,44 +82,49 @@
     color: #000;
 }
 
-
-
-
 .alphabet-list {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .alphabet-list ul {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 .alphabet-list li {
     display: inline-block;
-    padding: .4em;
+    padding: 0.4em;
     font-size: 20px;
     line-height: 1;
     font-weight: 500;
-    color: gray
+    color: gray;
 }
 
 .alphabet-list a {
     color: #023057;
     display: inline-block;
     font-size: 20px;
-    padding: .4em;
+    padding: 0.4em;
     line-height: 1;
     font-weight: bold;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .alphabet-list a:hover {
     background: #ddd;
-    color: #444
+    color: #444;
 }
 
 .alphabet-list .active {
     background: #023057;
-    color: white
+    color: white;
+}
+.copyright__inner p, .copyright__inner p a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.copyright__inner p a{
+    text-decoration: underline;
 }
